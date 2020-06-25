@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Covid-19 Information</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@800&family=Nanum+Gothic:wght@800&display=swap');
         * {
             margin: 0px;
             padding: 0px;
@@ -14,19 +16,70 @@
 
         nav {
             display: flex;
+            background-color: #54614f;
+            width:100%;
+
+        }
+
+        body {
+            background: url("bg1.jpg");
+            height: 100%;
+            width: 100%;
         }
 
         .item {
-            margin: 10px 10px;
-            padding: 12px;
-            background-color: yellowgreen;
+            margin: 4px 38px;
+            padding: 1px;
             list-style: none;
         }
 
         .item a {
-            padding: 19px 0px;
+            padding: 18px 19px;
             display: block;
+            color: white;
             text-decoration: none;
+            font-family: 'Baloo Thambi 2', cursive;
+            font-size: 20px;
+            font-weight: bold;
+            opacity: 1;
+
+        }
+
+        .item a:hover {
+            color: coral;
+            background-color: white;
+            border-radius: 12px;
+        }
+
+        .container {
+            width: 72%;
+            margin: 12px auto;
+            background-color: white;
+            color: black;
+            min-height: 300vh;
+            border-radius: 12px;
+            padding: 44px;
+            font-family: 'Baloo Thambi 2', cursive;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Baloo Thambi 2', cursive;
+
+            padding: 23px;
+            text-decoration: underline;
+        }
+
+        h2 {
+            margin: 21px 0px;
+        }
+
+        img {
+            width: 80%;
+            margin: 33px auto;
+            display: flex;
+            border-radius: 23px;
         }
     </style>
 </head>
@@ -44,9 +97,64 @@
 
 
     <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, molestiae maxime nihil commodi itaque
-            asperiores quis consequuntur, ut accusantium sequi sed ipsum dolorem doloremque exercitationem cum illo
-            maiores quia voluptate odit! Dignissimos, atque sequi!</p>
+        <h1>Covid-19 Stay Home, Stay Safe</h1>
+        <h2>#indiafightscorona COVID-19 INDIA</h2>
+        <div class="content">
+            <p>COVID-19 is the infectious disease caused by the most recently
+                discovered corona virus. This new virus and disease were unknown
+                before the outbreak began in Wuhan, China, in December 2019.
+            </p>
+            <p>Corona viruses are a large family of viruses which may cause illness
+                in animals or humans. In humans, several coronaviruses are known
+                to cause respiratory infections ranging from the common cold to more
+                severe diseases such as Middle East Respiratory Syndrome (MERS)
+                and Severe Acute Respiratory Syndrome (SARS). The most recently
+                discovered coronavirus causes coronavirus disease COVID-19. </p>
+        </div>
+        <h2>Symptoms of Covid-19</h2>
+        <div class="content">
+            <p>The most common symptoms of COVID-19 are fever, tiredness, and
+                dry cough. Some patients may have aches and pains, nasal
+                congestion, runny nose, sore throat or diarrhea. These symptoms are
+                usually mild and begin gradually. Some people become infected but
+                don’t develop any symptoms and don't feel unwell. Most people
+                (about 80%) recover from the disease without needing special
+                treatment. Around 1 out of every 6 people who gets COVID-19
+                becomes seriously ill and develops difficulty breathing. Older people,
+                and those with underlying medical problems like high blood pressure,
+                heart problems or diabetes, are more likely to develop serious illness.
+                People with fever, cough and difficulty breathing should seek medical
+                attention. </p>
+        </div>
+        <h2>What can I do to protect myself and prevent the spread of
+            disease?
+        </h2>
+        <div class="content">
+            <p>Stay aware of the latest information on the COVID-19 outbreak,
+                available on the national,state and local public health authority. Many
+                countries around the world have seen cases of COVID-19 and several
+                have seen outbreaks. Authorities in China and some other countries
+                have succeeded in slowing or stopping their outbreaks. However, the
+                situation is unpredictable so check regularly for the latest news. </p>
+        </div>
+        <h2>How likely am I to catch COVID-19?
+        </h2>
+        <div class="content">
+            <p>For most people in most locations the risk of catching COVID-19 is
+                still low. However, there are now places around the world (cities or
+                areas) where the disease is spreading. For people living in, or visiting,
+                these areas the risk of catching COVID-19 is higher. Governments
+                and health authorities are taking vigorous action every time a new
+                case of COVID-19 is identified. Be sure to comply with any local
+                restrictions on travel, movement or large gatherings. Cooperating with
+                disease control efforts will reduce your risk of catching or spreading
+                COVID-19.
+                COVID-19 outbreaks can be contained and transmission stopped, as
+                has been shown in China and some other countries. Unfortunately,
+                new outbreaks can emerge rapidly. It’s important to be aware of the
+                situation where you are or intend to go. </p>
+        </div>
+        <img src="faqs.jpeg">
     </div>
 </body>
 
